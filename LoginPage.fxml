@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.supplychain.LoginPageController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1fddff" height="500.0" layoutY="2.0" stroke="BLACK" strokeType="INSIDE" translateY="60.0" width="500.0" />
+      <Label layoutX="63.0" layoutY="117.0" text="Enter UserId" />
+      <Label layoutX="63.0" layoutY="192.0" text="Enter Password" />
+      <TextField fx:id="UserID" layoutX="206.0" layoutY="113.0" />
+      <PasswordField fx:id="Password" layoutX="206.0" layoutY="188.0" />
+      <Button layoutX="206.0" layoutY="299.0" mnemonicParsing="false" onMouseClicked="#loginNow" text="Login" />
+   </children>
+</AnchorPane>

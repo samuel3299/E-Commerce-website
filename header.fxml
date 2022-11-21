@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane focusTraversable="true" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.supplychain.HeaderController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="65.0" stroke="BLACK" strokeType="INSIDE" width="500.0" />
+      <Button fx:id="Searched" layoutX="229.0" layoutY="20.0" mnemonicParsing="false" text="Search" onMouseClicked="#Search"/>
+      <TextField fx:id = "Searchtxt" layoutX="43.0" layoutY="20.0" promptText="Search" />
+      <Button fx:id="Loginbtn" layoutX="435.0" layoutY="20.0" mnemonicParsing="false" onMouseClicked="#login" text="Login" />
+      <Label layoutX = "400.0" layoutY="20.0" fx:id = "email" onMouseClicked="#Logoutappear"/>
+      <Button fx:id="Logoutoff" layoutX="435.0" layoutY="45.0" mnemonicParsing="false" text="Logout" opacity="0" onMouseClicked="#logout"/>
+   </children>
+</AnchorPane>

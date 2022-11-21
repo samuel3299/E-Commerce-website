@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.supplychain.SellerPageController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fffd1f" height="500.0" stroke="BLACK" strokeType="INSIDE" width="500.0" />
+      <Label layoutX="43.0" layoutY="42.0" text="Add a New Product">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="88.0" layoutY="105.0" text="Product Name" />
+      <Label layoutX="88.0" layoutY="203.0" text="Product Price" />
+      <Label layoutX="88.0" layoutY="305.0" text="Seller Id" />
+      <TextField fx:id="Name" layoutX="91.0" layoutY="137.0" />
+      <TextField fx:id="Price" layoutX="91.0" layoutY="238.0" />
+      <TextField fx:id="SellerId" layoutX="91.0" layoutY="342.0" />
+      <Button layoutX="250.0" layoutY="399.0" mnemonicParsing="false" text="Add" onMouseClicked="#Add"/>
+   </children>
+</AnchorPane>
